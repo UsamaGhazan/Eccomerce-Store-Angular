@@ -42,10 +42,9 @@ this.cartservice.getCartItems().subscribe(products=>
 checkout():void{
   this.cartservice.checkout(this.cartItems).subscribe(products=>{
     console.log(products)
+    
   })
 }
 
-addToCart():void{
 
-}
 }
