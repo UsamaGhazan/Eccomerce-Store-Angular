@@ -123,35 +123,6 @@
         }
       ],
       "responseMode": null
-    },
-    {
-      "uuid": "996a0f17-4f54-470f-b6a1-861a55ac35f2",
-      "type": "http",
-      "documentation": "",
-      "method": "post",
-      "endpoint": "cart/checkout",
-      "responses": [
-        {
-          "uuid": "972f0877-0946-4da0-a43d-ac3c9136fab9",
-          "body": "",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
     }
   ],
   "rootChildren": [
@@ -170,10 +141,6 @@
     {
       "type": "route",
       "uuid": "59a081b2-b730-4713-af62-00f310021813"
-    },
-    {
-      "type": "route",
-      "uuid": "996a0f17-4f54-470f-b6a1-861a55ac35f2"
     }
   ],
   "proxyMode": false,

@@ -1,0 +1,13 @@
+<div class="container-sm">
+    <h1>Your cart</h1>
+    <ul *ngFor="let item of cartItems">
+            <li>
+          <span >{{item.name}}</span>
+          <span >{{item.price|currency:'USD'}}</span>
+        </li>
+       
+      </ul>
+      <h2>{{totalPrice|currency:'USD'}}</h2>
+      <button (click)="clearCart()">Clear Cart</button>
+      <button (click)="checkout()">Checkout</button>
+</div>
